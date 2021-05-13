@@ -1,0 +1,26 @@
+.section {
+    max-width: 900px;
+    padding: 15px;
+    box-shadow: 8px 10px 10px rgb(196 192 192);
+    border: 1px solid #3c793c;
+    margin: 20px auto;
+}
+
+.section__secCaption {
+    color: #1f421f;
+    padding: 5px auto;
+    margin: 15px auto;
+    text-shadow: 18px 2px 12px rgb(61 59 32);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.section__paragraphClass {
+    color: rgb(78, 75, 75);
+    text-align: center;
+}
+
+.section__paragraphClass--colored {
+    background-color: rgb(205, 241, 220);
+}

@@ -1,0 +1,123 @@
+        html {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        *, ::after, ::before {
+            box-sizing: inherit;
+        }
+
+        .caption {
+            max-width: 1200px;
+            color: #f5f2f2;
+            background-color: rgb(86 109 63);
+            border: 1px solid rgb(219, 215, 208);
+            padding: 10px 20px;
+            margin: 50px auto;
+            box-shadow: 8px 10px 10px rgb(196 192 192);
+            text-shadow: 15px 6px 5px rgb(61, 59, 59);
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+        }
+
+        .body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: rgb(255 255 255);
+            text-align: left;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 50px 100px;
+        }
+
+        .fotoCake {
+            max-width: 50%;
+            padding: 10px;
+            display: block;
+            width: 100%;
+            overflow: auto;
+            margin: 5px auto;
+        }
+
+        .table {
+            color: lightgray;
+            background-color: rgb(62, 92, 47);
+            font-family: 'Open Sans', sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        .tableCell {
+            border: 2px solid grey;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .tableHeader {
+            background-color: rgb(7, 27, 6);
+            color: blanchedalmond;
+        }
+
+        .caption {
+            color: black;
+            font-weight: bold;
+            caption-side: top;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .tableRow:nth-child(even) {
+            background: rgb(86, 109, 63);
+        }
+
+        .tableRow:hover {
+            background-color: rgba(49, 66, 32, 0.801);
+        }
+
+        .container {
+            overflow-x: auto;
+        }
+
+        .listItem {
+            margin: 10px 0;
+        }
+
+        .list {
+            padding-left: 20px;
+        }
+
+        .orderedList {
+            list-style-type: upper-roman;
+        }
+
+        .unorderedList {
+            list-style-position: inside;
+        }
+
+        .link:visited {
+            color: darkgreen;
+        }
+
+        .link:focus {
+            outline: 2px solid currentColor;
+        }
+
+        .link:hover {
+            color: darkolivegreen;
+            border-bottom: 1px solid;
+            outline: none;
+        }
+
+        .dark {
+            background-color: rgb(31, 30, 31);
+            color: rgb(255, 255, 255);
+        }
+
+        .buttonDark {
+            width: 70px;
+            height: 60px;
+            background-color: rgb(250, 250, 250);
+            color: black;
+            border: 1px dotted rgb(32, 179, 76);
+            border-radius: 40px;
+        }

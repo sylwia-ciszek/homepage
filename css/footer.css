@@ -1,0 +1,41 @@
+.contactFooter {
+    margin: auto;
+    box-shadow: 0px 0px 10px -2px #292;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 250px;
+    width: 80%;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(158, 152, 152);
+    text-align: center;
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.footer__caption {
+    color: #1f421f;
+    padding: 15px auto;
+    margin: 15px auto auto 15px;
+    text-shadow: 18px 2px 12px rgb(61 59 32);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contactFooter__footerItem {
+    list-style: none;
+}
+
+.contactFooter__footerItem--boldName {
+    font-weight: bold;
+}
+
+.logoInstagrama {
+    width: 25px;
+    margin-left: 5px;
+    margin-bottom: -8px;
+}
