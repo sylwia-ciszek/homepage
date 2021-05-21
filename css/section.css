@@ -24,3 +24,8 @@
 .section__paragraphClass--colored {
     background-color: rgb(205, 241, 220);
 }
+
+.section__prezentation {
+    max-width: 500px;
+    width: auto;
+}
